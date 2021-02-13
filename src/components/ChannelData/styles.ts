@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { AlternateEmail } from "styled-icons/material";
+import styled from 'styled-components';
+import { AlternateEmail } from 'styled-icons/material';
 
 export const Container = styled.div`
   grid-area: CD;
@@ -17,7 +17,7 @@ export const Messages = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-height: calc(100vh -46px -68px);
+  max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
@@ -36,7 +36,7 @@ export const Messages = styled.div`
 
 export const InputWrapper = styled.div`
   width: 100%;
-  
+
   padding: 0 16px;
 `;
 
@@ -67,5 +67,6 @@ export const Input = styled.input`
 export const InputIcon = styled(AlternateEmail)`
   width: 24px;
   height: 24px;
+
   color: var(--gray);
 `;
