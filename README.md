@@ -15,7 +15,7 @@
 Este projeto é um clone do discord.
 
 <div align="center">
-  <img alt="design do projeto" height="525" width="100%" src="./public/m1.gif" />
+  <img alt="design do projeto" height="525" width="100%" src="./Github/m1.gif" />
 </div>
 
 <hr />
